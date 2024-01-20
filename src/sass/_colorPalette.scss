@@ -1,0 +1,136 @@
+@use 'variables';
+
+.color-palette__item {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+  margin-left: 2rem;
+
+  &:active {
+    box-shadow: none;
+    transform: translateY(5px);
+  }
+}
+
+.violet {
+  --color-theme: variables.$violet-bg;
+  background: #cb356b;
+  background: -webkit-linear-gradient(to right, #bd3f32, #cb356b);
+  background: variables.$violet-bg;
+}
+
+.violet--border {
+  border: 1px solid variables.$violet-border;
+}
+
+.violet--color {
+  color: variables.$violet-color;
+}
+
+.violet--success {
+  background: variables.$violet-success;
+}
+
+.alive {
+  --color-theme: $alive-bg;
+  background: #cb356b;
+  background: -webkit-linear-gradient(to right, #bd3f32, #cb356b);
+  background: variables.$alive-bg;
+}
+
+.alive--border {
+  border: 1px solid variables.$alive-border;
+}
+
+.alive--color {
+  color: variables.$alive-color;
+}
+
+.alive--success {
+  background: variables.$alive-success;
+}
+
+.summer {
+  --color-theme: variables.$summer-bg;
+  background: #22c1c3;
+  background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);
+  background: variables.$summer-bg;
+}
+
+.summer--border {
+  border: 1px solid variables.$summer-border;
+}
+
+.summer--color {
+  color: variables.$summer-color;
+}
+
+.summer--success {
+  background: variables.$summer-success;
+}
+
+.hydrogen {
+  --color-theme: variables.$hydrogen-bg;
+  background: #667db6;
+  background: -webkit-linear-gradient(
+    to right,
+    #667db6,
+    #0082c8,
+    #0082c8,
+    #667db6
+  );
+  background: variables.$hydrogen-bg;
+}
+
+.hydrogen--border {
+  border: 1px solid variables.$hydrogen-border;
+}
+
+.hydrogen--color {
+  color: variables.$hydrogen-color;
+}
+
+.hydrogen--success {
+  background: variables.$hydrogen-success;
+}
+
+.moon-purple {
+  --color-theme: variables.$moon-purple-bg;
+  background: #4e54c8;
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+  background: variables.$moon-purple-bg;
+}
+
+.moon-purple--border {
+  border: 1px solid variables.$moon-purple-border;
+}
+
+.moon-purple--color {
+  color: variables.$moon-purple-color;
+}
+
+.moon-purple--success {
+  background: variables.$moon-purple-success;
+}
+
+.citrus-peel {
+  --color-theme: variables.$citrus-peel-bg;
+  background: #fdc830;
+  background: -webkit-linear-gradient(to right, #f37335, #fdc830);
+  background: variables.$citrus-peel-bg;
+}
+
+.citrus-peel--border {
+  border: 1px solid variables.$citrus-peel-border;
+}
+
+.citrus-peel--color {
+  color: variables.$citrus-peel-color;
+}
+
+.citrus-peel--success {
+  background: variables.$citrus-peel-success;
+}

@@ -1,0 +1,42 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  &__record {
+    display: flex;
+    flex-direction: column;
+
+    &--date {
+      font-size: 0.5rem;
+    }
+  }
+
+  &--incompleted {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &--completed {
+    color: #aeaeaeb8;
+    text-decoration: line-through;
+    cursor: pointer;
+    background: #02022c;
+    opacity: 0.5; /* Ajusta el valor según tu preferencia */
+    cursor: pointer;
+  }
+
+  &__edit,
+  &__delete {
+    cursor: pointer;
+  }
+
+  &__delete {
+    margin-left: 0.75rem;
+  }
+}
